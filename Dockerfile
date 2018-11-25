@@ -15,6 +15,7 @@ ENV PORT=8080
 ENV MQTT_URL='mqtt://localhost'
 ENV MQTT_USERNAME=''
 ENV MQTT_PASSWORD=''
+ENV MQTT_RETAIN=false
 
 COPY --from=build /usr/src/app/node_modules ./node_modules
 COPY app.js .

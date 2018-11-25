@@ -9,7 +9,8 @@ const mqtt_url = process.env.MQTT_URL || 'mqtt://localhost'
 const username = process.env.MQTT_USERNAME || ''
 const password = process.env.MQTT_PASSWORD || ''
 const token = process.env.TOKEN || ''
-const retain = process.env.MQTT_RETAIN || true
+const retain = (process.env.MQTT_RETAIN || 'false').toLowerCase() == 'true'
+
 const mqttOptions = {
   username,
   password
@@ -54,7 +55,7 @@ const publish = (req, res) => {
   mqttClient.publish(
     path,
     JSON.stringify(req.body),
-    { qos: 2, retain },
+    { qos: 0, retain },
     err => {
       console.log('Published', path, req.body)
       if (!err) {
