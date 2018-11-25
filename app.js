@@ -9,6 +9,7 @@ const mqtt_url = process.env.MQTT_URL || 'mqtt://localhost'
 const username = process.env.MQTT_USERNAME || ''
 const password = process.env.MQTT_PASSWORD || ''
 const token = process.env.TOKEN || ''
+const retain = process.env.MQTT_RETAIN || true
 const mqttOptions = {
   username,
   password
@@ -50,14 +51,19 @@ const publish = (req, res) => {
   const path = req.path.substr(1) // substr(1) remove the leading '/'
   console.log('Publishing', path, req.body)
 
-  mqttClient.publish(path, JSON.stringify(req.body), { qos: 2 }, err => {
-    console.log('Published', path, req.body)
-    if (!err) {
-      return res.sendStatus(204)
+  mqttClient.publish(
+    path,
+    JSON.stringify(req.body),
+    { qos: 2, retain },
+    err => {
+      console.log('Published', path, req.body)
+      if (!err) {
+        return res.sendStatus(204)
+      }
+      console.log('error sending', err)
+      return res.status(500).send('error')
     }
-    console.log('error sending', err)
-    return res.status(500).send('error')
-  })
+  )
 }
 process.on('SIGTERM', () => {
   console.log('sigterm')
