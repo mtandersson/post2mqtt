@@ -14,14 +14,14 @@ I use this in my home assistant automation. Especially for webhooks from iftt. T
 
 Environment variables:
 
-| Name            | Descripttion                                      | Default value      |
-| --------------- | ------------------------------------------------- | ------------------ |
-| `PORT`          | The port to listen on for the http requests       | `8080`             |
-| `MQTT_URL`      | The url to the mqtt server                        | `mqtt://localhost` |
-| `MQTT_USERNAME` | Username for the MQTT server                      | `''`               |
-| `MQTT_PASSWORD` | Password for the MQTT                             | `''`               |
-| `MQTT_RETAIN`   | MQTT retain flag for messages.                    | `true`             |
-| `TOKEN`         | Token that caller should use to authenticate with | `''`               |
+| Name            | Descripttion                                                 | Default value      |
+| --------------- | ------------------------------------------------------------ | ------------------ |
+| `PORT`          | The port to listen on for the http requests                  | `8080`             |
+| `MQTT_URL`      | The url to the mqtt server                                   | `mqtt://localhost` |
+| `MQTT_USERNAME` | Username for the MQTT server                                 | `''`               |
+| `MQTT_PASSWORD` | Password for the MQTT                                        | `''`               |
+| `MQTT_RETAIN`   | MQTT retain flag for messages. Valid values are true, false. | `false`            |
+| `TOKEN`         | Token that caller should use to authenticate with            | `''`               |
 
 ## Examples
 
