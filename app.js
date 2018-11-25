@@ -13,6 +13,8 @@ const mqttOptions = {
   username,
   password
 }
+
+console.log('Connecting to mqtt ', mqtt_url)
 const mqttClient = mqtt.connect(
   mqtt_url,
   mqttOptions
@@ -28,7 +30,7 @@ mqttClient.on('message', (topic, message) =>
 )
 
 app.use(bodyParser.json()) // for parsing application/json
-app.listen(port, () => console.log(`Listning on port ${port}!`))
+const server = app.listen(port, () => console.log(`Listning on port ${port}!`))
 
 // Check autnh in authorization header or token querystring
 const checkAuth = (req, res, next) => {
@@ -52,6 +54,13 @@ const publish = (req, res) =>
     console.log('error sending', err)
     return res.status(500).send('error')
   })
+
+process.on('SIGTERM', () => {
+  console.log('sigterm')
+  server.close(function() {
+    process.exit(0)
+  })
+})
 
 if (token) {
   app.post('*', checkAuth, publish)

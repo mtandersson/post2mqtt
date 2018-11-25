@@ -24,6 +24,7 @@ Name | Descripttion | Default value
 
 ## Examples
 
+### From source
 The server is started with `TOKEN=theauthtoken yarn start` then 
 
 ```bash
@@ -39,7 +40,7 @@ Whould post
 {"key1":"value1", "key2":"value2"}
 ```
 
-to the `a/b` mqtt topic
+to the `a/b` mqtt topic to the localhost mqtt
 
 If you cant use Authorization header thefollowing does the same thing
 
@@ -48,4 +49,16 @@ curl -d '{"key1":"value1", "key2":"value2"}' \
  -H "Content-Type: application/json" \
  -X POST http://localhost:8080/a/b?token=theauthtoken
 ```
+
+### Docker
+
+The server can be started from docker
+
+```bash
+docker run --rm -e TOKEN=theauthtoken \
+           -e MQTT_URL="mqtt://192.168.0.3" \
+           -p 8080:8080 mtand/post2mqtt
+```
+
+
 

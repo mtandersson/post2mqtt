@@ -19,4 +19,4 @@ ENV MQTT_PASSWORD=''
 COPY --from=build /usr/src/app/node_modules ./node_modules
 COPY app.js .
 
-CMD ["node", "app.js"]
+CMD node app.js
