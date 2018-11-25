@@ -8,9 +8,7 @@ A easy help to convert http posts to mqtt events. This is how it works.
 
 ## Usages
 
-I use this in my home assistant automation. This is especially usefull when you don't to give out your home assistant api key, and you can use your own token. 
-
-For example when setting up iftt webhooks to the local home assistant installation
+I use this in my home assistant automation. Especially for webhooks from iftt. This saves me from giving out the home assistant api token and also I get to use mqtt
 
 ## Configuration variables
 
@@ -22,3 +20,32 @@ Name | Descripttion | Default value
 `MQTT_URL` | The url to the mqtt server | `mqtt://localhost`
 `MQTT_USERNAME` | Username for the MQTT server | `''`
 `MQTT_PASSWORD` | Password for the MQTT | `''`
+`TOKEN` | Token that caller should use to authenticate with | `''`
+
+## Examples
+
+The server is started with `TOKEN=theauthtoken yarn start` then 
+
+```bash
+curl -d '{"key1":"value1", "key2":"value2"}' \
+ -H "Content-Type: application/json" \
+ -H "Authorization: theauthtoken" \
+ -X POST http://localhost:8080/a/b
+```
+
+Whould post 
+
+```json
+{"key1":"value1", "key2":"value2"}
+```
+
+to the `a/b` mqtt topic
+
+If you cant use Authorization header thefollowing does the same thing
+
+```bash
+curl -d '{"key1":"value1", "key2":"value2"}' \
+ -H "Content-Type: application/json" \
+ -X POST http://localhost:8080/a/b?token=theauthtoken
+```
+
