@@ -34,7 +34,7 @@ mqttClient.on('message', (topic, message) =>
 app.use(bodyParser.json()) // for parsing application/json
 const server = app.listen(port, () => console.log(`Listning on port ${port}!`))
 
-// Check autnh in authorization header or token querystring
+// Check autn in authorization header or token querystring
 const checkAuth = (req, res, next) => {
   if (req.get('authorization') === token) {
     return next()
