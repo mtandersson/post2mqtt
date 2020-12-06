@@ -1,5 +1,8 @@
 {
   "extends": ["config:base"],
   "automerge": true,
-  "requiredStatusChecks": null
+  "requiredStatusChecks": null,
+  "lockFileMaintenance": { "enabled": true },
+  "rebaseWhen": "behind-base-branch",
+  "prHourlyLimit": 0
 }
