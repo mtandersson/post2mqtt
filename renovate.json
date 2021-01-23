@@ -1,8 +1,13 @@
 {
   "extends": ["config:base"],
   "automerge": true,
-  "requiredStatusChecks": null,
-  "lockFileMaintenance": { "enabled": true },
   "rebaseWhen": "behind-base-branch",
-  "prHourlyLimit": 0
+  "lockFileMaintenance": {
+    "enabled": true
+  },
+  "kubernetes": {
+    "fileMatch": ["\\.yaml$"]
+  },
+  "timezone": "Europe/Madrid",
+  "prHourlyLimit": 8
 }
