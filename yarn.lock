@@ -901,9 +901,9 @@ minimist@^1.1.0, minimist@^1.2.0, minimist@^1.2.5:
   integrity sha512-FM9nNUYrRBAELZQT3xeZQ7fmMOBg6nWNmJKTcgsJeaLstP/UODVpGsr5OhXhhXg6f+qtJ8uiZ+PUxkDWcgIXLw==
 
 mqtt-packet@^6.6.0:
-  version "6.7.0"
-  resolved "https://registry.yarnpkg.com/mqtt-packet/-/mqtt-packet-6.7.0.tgz#0098f7f5d02f34b8dce35507befd6394e1109575"
-  integrity sha512-GzgeeCirQpB59FyhHvf8BLiIYgxctPSxuSyaF2vWnkt7paX7jtuQ8Gpl+DkHCxZmYuv7GQE6zcUAegpafd0MqQ==
+  version "6.8.0"
+  resolved "https://registry.yarnpkg.com/mqtt-packet/-/mqtt-packet-6.8.0.tgz#5c43f18e9720b4925cb3d11eef3d81ae56690642"
+  integrity sha512-YDr8cYgkeuWQqp4CDTm6FK0uABMSpFyyXlTTOH/dGzVejljrf9oVvzVCy/eiyUwIOt4tinxWTW+6O4D6kh/+fw==
   dependencies:
     bl "^4.0.2"
     debug "^4.1.1"
