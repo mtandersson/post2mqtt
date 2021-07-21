@@ -20,4 +20,7 @@ ENV MQTT_RETAIN=false
 COPY --from=build /usr/src/app/node_modules ./node_modules
 COPY app.js .
 
+RUN "echo 1"
+RUN "echo 2"
+
 CMD node app.js
