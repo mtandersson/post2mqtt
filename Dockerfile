@@ -1,5 +1,5 @@
 
-FROM node:16.6.2-alpine as base
+FROM node:16.8.0-alpine as base
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
 
