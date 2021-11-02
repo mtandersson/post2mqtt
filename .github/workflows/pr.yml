@@ -13,5 +13,5 @@ jobs:
     outputs:
       pr: ${{ steps.pr.outputs.pr}}
     steps:
-    - uses: actions/checkout@v2.3.5
+    - uses: actions/checkout@v2.4.0
     - run: docker build .
