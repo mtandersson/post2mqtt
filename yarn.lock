@@ -204,7 +204,7 @@ clone-response@^1.0.2:
   dependencies:
     mimic-response "^1.0.0"
 
-collections@^5.1.12, collections@^5.1.13:
+collections@^5.1.13:
   version "5.1.13"
   resolved "https://registry.yarnpkg.com/collections/-/collections-5.1.13.tgz#eee204a93b67473c8e74e00e934a997cc2817585"
   integrity sha512-SCb6Qd+d3Z02corWQ7/mqXiXeeTdHvkP6TeFSYfGYdCFp1WrjSNZ3j6y8Y3T/7osGEe0iOcU2g1d346l99m4Lg==
@@ -799,12 +799,12 @@ mqtt-packet@^6.8.0:
     debug "^4.1.1"
     process-nextick-args "^2.0.1"
 
-mqtt@4.3.1:
-  version "4.3.1"
-  resolved "https://registry.yarnpkg.com/mqtt/-/mqtt-4.3.1.tgz#03c0c214166b0c4b6d4df71409de5ceabdf94edd"
-  integrity sha512-262jQ0K3CHnG8WxDvWTqQ99gSI26+gGKax4xoTizkLQZInX8jhwqS9YCCO5F8kCdqpKnEkNdlMva6n7PFbxDfw==
+mqtt@4.3.2:
+  version "4.3.2"
+  resolved "https://registry.yarnpkg.com/mqtt/-/mqtt-4.3.2.tgz#d31bde834a8d5ef59adfcbeb28eb4b6b5d56002c"
+  integrity sha512-cSmPOvTL9diVV7nZVHobwFR//fLZw8c1Yw04z49sLwJx45ooiiqcg2soFLYdjI4iXlkw49lP6BZ2ZRv9kGpOyw==
   dependencies:
-    collections "^5.1.12"
+    collections "^5.1.13"
     commist "^1.0.0"
     concat-stream "^2.0.0"
     debug "^4.1.1"
@@ -813,7 +813,7 @@ mqtt@4.3.1:
     inherits "^2.0.3"
     minimist "^1.2.5"
     mqtt-packet "^6.8.0"
-    number-allocator "^1.0.7"
+    number-allocator "^1.0.8"
     pump "^3.0.0"
     readable-stream "^3.6.0"
     reinterval "^1.1.0"
@@ -875,7 +875,7 @@ normalize-url@^4.1.0:
   resolved "https://registry.yarnpkg.com/normalize-url/-/normalize-url-4.5.1.tgz#0dd90cf1288ee1d1313b87081c9a5932ee48518a"
   integrity sha512-9UZCFRHQdNrfTpGg8+1INIg93B6zE0aXMVFkw1WFwvO4SlZywU6aLg5Of0Ap/PgcbSw4LNxvMWXMeugwMCX0AA==
 
-number-allocator@^1.0.7:
+number-allocator@^1.0.8:
   version "1.0.8"
   resolved "https://registry.yarnpkg.com/number-allocator/-/number-allocator-1.0.8.tgz#b7493de1cac628472aba48666c000f70a5d37280"
   integrity sha512-5lhaurSl3Kvn6j47S2ELzyv5X7b+UvvcZONUjL5/bFGNiOU7GkG/HUmtqef9ayEzS2i6BtsqB0FTTyu+8QrRrg==
