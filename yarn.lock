@@ -526,9 +526,9 @@ got@^9.6.0:
     url-parse-lax "^3.0.0"
 
 graceful-fs@^4.1.2:
-  version "4.2.8"
-  resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.8.tgz#e412b8d33f5e006593cbd3cee6df9f2cebbe802a"
-  integrity sha512-qkIilPUYcNhJpd33n0GBXTB1MMPp14TxEsEs0pTrsSVucApsYzW5V+Q8Qxhik6KU3evy+qkAAowTByymK0avdg==
+  version "4.2.9"
+  resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.9.tgz#041b05df45755e587a24942279b9d113146e1c96"
+  integrity sha512-NtNxqUcXgpW2iMrfqSfR73Glt39K+BLwWsPs94yR63v45T0Wbej7eRmL5cWfwEgqXnmjQp3zaJTshdRW/qC2ZQ==
 
 has-flag@^3.0.0:
   version "3.0.0"
@@ -692,6 +692,11 @@ is-yarn-global@^0.3.0:
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/is-yarn-global/-/is-yarn-global-0.3.0.tgz#d502d3382590ea3004893746754c89139973e232"
   integrity sha512-VjSeb/lHmkoyd8ryPVIKvOCn4D1koMqY+vqyjjUfc3xyKtP4dYOxM44sZrnqQSzSds3xyOrUTLTC9LVCVgLngw==
+
+js-sdsl@^2.1.2:
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/js-sdsl/-/js-sdsl-2.1.2.tgz#5f3234baeef891a8845e400e73f1bd3ce4a268e8"
+  integrity sha512-1KKQoHwdf5I4y3iXyOoYTWFBsot96s9DTOKOrujfb8+6k8zOTsIVQe6WDvNDhYMQ6WmUhdcjAkW5/StK6MZNPQ==
 
 json-buffer@3.0.0:
   version "3.0.0"
@@ -876,12 +881,12 @@ normalize-url@^4.1.0:
   integrity sha512-9UZCFRHQdNrfTpGg8+1INIg93B6zE0aXMVFkw1WFwvO4SlZywU6aLg5Of0Ap/PgcbSw4LNxvMWXMeugwMCX0AA==
 
 number-allocator@^1.0.8:
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/number-allocator/-/number-allocator-1.0.8.tgz#b7493de1cac628472aba48666c000f70a5d37280"
-  integrity sha512-5lhaurSl3Kvn6j47S2ELzyv5X7b+UvvcZONUjL5/bFGNiOU7GkG/HUmtqef9ayEzS2i6BtsqB0FTTyu+8QrRrg==
+  version "1.0.9"
+  resolved "https://registry.yarnpkg.com/number-allocator/-/number-allocator-1.0.9.tgz#6f8fc46c3e6c90f6175ac7daf3b8f74ff786ba03"
+  integrity sha512-sIIF0dZKMs3roPUD7rLreH8H3x47QKV9dHZ+PeSnH24gL0CxKxz/823woGZC0hLBSb2Ar/rOOeHiNbnPBum/Mw==
   dependencies:
-    collections "^5.1.13"
     debug "^4.3.1"
+    js-sdsl "^2.1.2"
 
 on-finished@~2.3.0:
   version "2.3.0"
