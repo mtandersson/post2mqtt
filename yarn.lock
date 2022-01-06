@@ -694,9 +694,9 @@ is-yarn-global@^0.3.0:
   integrity sha512-VjSeb/lHmkoyd8ryPVIKvOCn4D1koMqY+vqyjjUfc3xyKtP4dYOxM44sZrnqQSzSds3xyOrUTLTC9LVCVgLngw==
 
 js-sdsl@^2.1.2:
-  version "2.1.2"
-  resolved "https://registry.yarnpkg.com/js-sdsl/-/js-sdsl-2.1.2.tgz#5f3234baeef891a8845e400e73f1bd3ce4a268e8"
-  integrity sha512-1KKQoHwdf5I4y3iXyOoYTWFBsot96s9DTOKOrujfb8+6k8zOTsIVQe6WDvNDhYMQ6WmUhdcjAkW5/StK6MZNPQ==
+  version "2.1.4"
+  resolved "https://registry.yarnpkg.com/js-sdsl/-/js-sdsl-2.1.4.tgz#16f31a56cc09ec57723e0c477fdc07e1d2522627"
+  integrity sha512-/Ew+CJWHNddr7sjwgxaVeIORIH4AMVC9dy0hPf540ZGMVgS9d3ajwuVdyhDt6/QUvT8ATjR3yuYBKsS79F+H4A==
 
 json-buffer@3.0.0:
   version "3.0.0"
