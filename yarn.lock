@@ -204,13 +204,6 @@ clone-response@^1.0.2:
   dependencies:
     mimic-response "^1.0.0"
 
-collections@^5.1.13:
-  version "5.1.13"
-  resolved "https://registry.yarnpkg.com/collections/-/collections-5.1.13.tgz#eee204a93b67473c8e74e00e934a997cc2817585"
-  integrity sha512-SCb6Qd+d3Z02corWQ7/mqXiXeeTdHvkP6TeFSYfGYdCFp1WrjSNZ3j6y8Y3T/7osGEe0iOcU2g1d346l99m4Lg==
-  dependencies:
-    weak-map "~1.0.x"
-
 color-convert@^2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/color-convert/-/color-convert-2.0.1.tgz#72d3a68d598c9bdb3af2ad1e84f21d896abd4de3"
@@ -804,18 +797,18 @@ mqtt-packet@^6.8.0:
     debug "^4.1.1"
     process-nextick-args "^2.0.1"
 
-mqtt@4.3.3:
-  version "4.3.3"
-  resolved "https://registry.yarnpkg.com/mqtt/-/mqtt-4.3.3.tgz#14379aaedb29d3bea7ee99c457b31fb39c0ef7a2"
-  integrity sha512-5wOr2mDchGd+PKZMrbxisP5JS42K6IHI5sueYr6yQnDL/F6vF0Qq6JDcGN3yWcngoJTTK7oYZrx1tlMxkH3mWQ==
+mqtt@4.3.4:
+  version "4.3.4"
+  resolved "https://registry.yarnpkg.com/mqtt/-/mqtt-4.3.4.tgz#147b64192ef03f716628a8fe103092e26ebd2169"
+  integrity sha512-yAVDfVHz3Cjn6K68z54mf7fTni/AWsPhiEsRwZSvet2wO47R6NFUn2psWxYIph2JxWtL3ZKa/da8pjJKSaXPdQ==
   dependencies:
-    collections "^5.1.13"
     commist "^1.0.0"
     concat-stream "^2.0.0"
     debug "^4.1.1"
     duplexify "^4.1.1"
     help-me "^3.0.0"
     inherits "^2.0.3"
+    lru-cache "^6.0.0"
     minimist "^1.2.5"
     mqtt-packet "^6.8.0"
     number-allocator "^1.0.9"
@@ -1296,11 +1289,6 @@ vary@~1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/vary/-/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
   integrity sha1-IpnwLG3tMNSllhsLn3RSShj2NPw=
-
-weak-map@~1.0.x:
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/weak-map/-/weak-map-1.0.5.tgz#79691584d98607f5070bd3b70a40e6bb22e401eb"
-  integrity sha1-eWkVhNmGB/UHC9O3CkDmuyLkAes=
 
 widest-line@^3.1.0:
   version "3.1.0"
