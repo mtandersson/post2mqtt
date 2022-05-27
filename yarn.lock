@@ -237,7 +237,7 @@ commist@^1.0.0:
 concat-map@0.0.1:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/concat-map/-/concat-map-0.0.1.tgz#d8a96bd77fd68df7793a73036a3ba0d5405d477b"
-  integrity sha1-2Klr13/Wjfd5OnMDajug1UBdR3s=
+  integrity sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==
 
 concat-stream@^2.0.0:
   version "2.0.0"
@@ -919,9 +919,9 @@ number-allocator@^1.0.9:
     js-sdsl "^2.1.2"
 
 object-inspect@^1.9.0:
-  version "1.12.1"
-  resolved "https://registry.yarnpkg.com/object-inspect/-/object-inspect-1.12.1.tgz#28a661153bad7e470e4b01479ef1cb91ce511191"
-  integrity sha512-Y/jF6vnvEtOPGiKD1+q+X0CiUYRQtEHp89MLLUJ7TUivtH8Ugn2+3A7Rynqk7BRsAoqeOQWnFnjpDrKSxDgIGA==
+  version "1.12.2"
+  resolved "https://registry.yarnpkg.com/object-inspect/-/object-inspect-1.12.2.tgz#c0641f26394532f28ab8d796ab954e43c009a8ea"
+  integrity sha512-z+cPxW0QGUp0mcqcsgQyLVRDoXFQbXOwBaqyF7VIgI4TWNQsDHrBpUQslRmIfAoYWdYzs6UlKJtB2XJpTaNSpQ==
 
 on-finished@2.4.1:
   version "2.4.1"
@@ -1375,9 +1375,9 @@ write-file-atomic@^3.0.0:
     typedarray-to-buffer "^3.1.5"
 
 ws@^7.5.5:
-  version "7.5.7"
-  resolved "https://registry.yarnpkg.com/ws/-/ws-7.5.7.tgz#9e0ac77ee50af70d58326ecff7e85eb3fa375e67"
-  integrity sha512-KMvVuFzpKBuiIXW3E4u3mySRO2/mCHSyZDJQM5NQ9Q9KHWHWh0NHgfbRMLLrceUK5qAL4ytALJbpRMjixFZh8A==
+  version "7.5.8"
+  resolved "https://registry.yarnpkg.com/ws/-/ws-7.5.8.tgz#ac2729881ab9e7cbaf8787fe3469a48c5c7f636a"
+  integrity sha512-ri1Id1WinAX5Jqn9HejiGb8crfRio0Qgu8+MtL36rlTA6RLsMdWt1Az/19A2Qij6uSHUMphEFaTKa4WG+UNHNw==
 
 xdg-basedir@^4.0.0:
   version "4.0.0"
