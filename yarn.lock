@@ -444,10 +444,10 @@ is-number@^7.0.0:
   resolved "https://registry.yarnpkg.com/is-number/-/is-number-7.0.0.tgz#7535345b896734d5f80c4d06c50955527a14f12b"
   integrity sha512-41Cifkg6e8TylSpdtTpeLVMqvSBEVzTttHvERD741+pnZ8ANv0004MRL43QKPDlK9cGvNp6NZWZUBlbGXYxxng==
 
-js-sdsl@^4.1.3:
-  version "4.1.3"
-  resolved "https://registry.yarnpkg.com/js-sdsl/-/js-sdsl-4.1.3.tgz#0c68865329135b47684e8997d587e7247044f331"
-  integrity sha512-p6umEbgMJq1OL+2z6eYFj8/yHlsx+0gX2nNoSqnu0V5KZaFGBaUfvktdbm5BGrlojadQ+Hjir0rdsaTmzoyd5Q==
+js-sdsl@4.1.4:
+  version "4.1.4"
+  resolved "https://registry.yarnpkg.com/js-sdsl/-/js-sdsl-4.1.4.tgz#78793c90f80e8430b7d8dc94515b6c77d98a26a6"
+  integrity sha512-Y2/yD55y5jteOAmY50JbUZYwk3CP3wnLPEZnlR1w9oKhITrBEtAxwuWKebFf8hMrPMgbYwFoWK/lH2sBkErELw==
 
 leven@^2.1.0:
   version "2.1.0"
@@ -586,12 +586,12 @@ normalize-path@^3.0.0, normalize-path@~3.0.0:
   integrity sha512-6eZs5Ls3WtCisHWp9S2GUy8dqkpGi4BVSz3GaqiE6ezub0512ESztXUwUB6C6IKbQkY2Pnb/mD4WYojCRwcwLA==
 
 number-allocator@^1.0.9:
-  version "1.0.11"
-  resolved "https://registry.yarnpkg.com/number-allocator/-/number-allocator-1.0.11.tgz#46ed259eb40830f03962da79cc3e28aa4e3e057c"
-  integrity sha512-ykOuVG+oGw67qwt0eW0sPaIR+ANtB58QCpVaaGLxt0QekRXDA5Q/eG7sJmFEZpIcSVdjdevmO72Z6mH258y7Hw==
+  version "1.0.12"
+  resolved "https://registry.yarnpkg.com/number-allocator/-/number-allocator-1.0.12.tgz#f2c94501df7bcb32aff03e95bd34cffa96af9685"
+  integrity sha512-sGB0qoQGmKimery9JubBQ9pQUr1V/LixJAk3Ygp7obZf6mpSXime8d7XHEobbIimkdZpgjkNlLt6G7LPEWFYWg==
   dependencies:
     debug "^4.3.1"
-    js-sdsl "^4.1.3"
+    js-sdsl "4.1.4"
 
 object-inspect@^1.9.0:
   version "1.12.2"
