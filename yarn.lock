@@ -586,9 +586,9 @@ normalize-path@^3.0.0, normalize-path@~3.0.0:
   integrity sha512-6eZs5Ls3WtCisHWp9S2GUy8dqkpGi4BVSz3GaqiE6ezub0512ESztXUwUB6C6IKbQkY2Pnb/mD4WYojCRwcwLA==
 
 number-allocator@^1.0.9:
-  version "1.0.13"
-  resolved "https://registry.yarnpkg.com/number-allocator/-/number-allocator-1.0.13.tgz#3805a8b0907052da843e3ed6977ecb12587ce372"
-  integrity sha512-f8lIcu5m61qzhbPfvVvenwtA6XkiIrbllQEBriTxjEGUna4oOXEOF8eJ720onvKhFtgmVdFGQxd8Jw8zV1tQRw==
+  version "1.0.14"
+  resolved "https://registry.yarnpkg.com/number-allocator/-/number-allocator-1.0.14.tgz#1f2e32855498a7740dcc8c78bed54592d930ee4d"
+  integrity sha512-OrL44UTVAvkKdOdRQZIJpLkAdjXGTRda052sN4sO77bKEzYYqWKMBjQvrJFzqygI99gL6Z4u2xctPW1tB8ErvA==
   dependencies:
     debug "^4.3.1"
     js-sdsl "4.3.0"
