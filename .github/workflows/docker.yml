@@ -47,3 +47,6 @@ jobs:
         with:
           push: true
           tags: mtand/post2mqtt:${{ steps.git.outputs.DOCKER_TAG }}
+          provenance: false
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
