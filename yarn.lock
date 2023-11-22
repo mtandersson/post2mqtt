@@ -3,16 +3,16 @@
 
 
 "@types/node@*":
-  version "20.9.3"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.9.3.tgz#e089e1634436f676ff299596c9531bd2b59fffc6"
-  integrity sha512-nk5wXLAXGBKfrhLB0cyHGbSqopS+nz0BUgZkUQqSHSSgdee0kssp1IAqlQOu333bW+gMNs2QREx7iynm19Abxw==
+  version "20.9.4"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.9.4.tgz#cc8f970e869c26834bdb7ed480b30ede622d74c7"
+  integrity sha512-wmyg8HUhcn6ACjsn8oKYjkN/zUzQeNtMy44weTJSM6p4MMzEOuKbA3OjJ267uPCOW7Xex9dyrNTful8XTQYoDA==
   dependencies:
     undici-types "~5.26.4"
 
 "@types/readable-stream@^4.0.5":
-  version "4.0.8"
-  resolved "https://registry.yarnpkg.com/@types/readable-stream/-/readable-stream-4.0.8.tgz#93aa90f3c23c49dd3386c7ce22aee14c688ee943"
-  integrity sha512-eNuXRT9IAu3eV5MYF5/v5+T7iHhHmDdMw8sTR4aVX0mMFK3V4MDJn9mKjxZXYSIZLtpw/83he3p+KweyIB8nIw==
+  version "4.0.9"
+  resolved "https://registry.yarnpkg.com/@types/readable-stream/-/readable-stream-4.0.9.tgz#b7f84343801107b9bcf3dca01934d30dc8df0360"
+  integrity sha512-4cwuvrmNF96M4Nrx0Eep37RwPB1Mth+nCSezsGRv5+PsFyRvDdLd0pil6gVLcWD/bh69INNdwZ98dJwfHpLohA==
   dependencies:
     "@types/node" "*"
     safe-buffer "~5.1.1"
