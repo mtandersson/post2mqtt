@@ -3,9 +3,9 @@
 
 
 "@types/node@*":
-  version "20.10.0"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.10.0.tgz#16ddf9c0a72b832ec4fcce35b8249cf149214617"
-  integrity sha512-D0WfRmU9TQ8I9PFx9Yc+EBHw+vSpIub4IDvQivcp26PtPrdMGAq5SDcpXEo/epqa/DXotVpekHiLNTg3iaKXBQ==
+  version "20.10.1"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.10.1.tgz#d2c96f356c3125fedc983d74c424910c3767141c"
+  integrity sha512-T2qwhjWwGH81vUEx4EXmBKsTJRXFXNZTL4v0gi01+zyBmCwzE6TyHszqX01m+QHTEq+EZNo13NeJIdEqf+Myrg==
   dependencies:
     undici-types "~5.26.4"
 
@@ -576,32 +576,10 @@ mqtt-packet@^9.0.0:
     debug "^4.3.4"
     process-nextick-args "^2.0.1"
 
-mqtt@5.3.1:
+mqtt@5.3.1, mqtt@^5.2.0:
   version "5.3.1"
   resolved "https://registry.yarnpkg.com/mqtt/-/mqtt-5.3.1.tgz#d1245aa25cf3e20fed8b63dc7540cf97123936f9"
   integrity sha512-ScLW9a8WU6EqJk0Tlp9GrvWiqP+D+IT19DHFWno4Uqak1raJp86O8KABu5KxCFagrJ3MwhdYEooqEbtvb1nbjA==
-  dependencies:
-    "@types/readable-stream" "^4.0.5"
-    "@types/ws" "^8.5.9"
-    commist "^3.2.0"
-    concat-stream "^2.0.0"
-    debug "^4.3.4"
-    help-me "^4.2.0"
-    lru-cache "^10.0.1"
-    minimist "^1.2.8"
-    mqtt "^5.2.0"
-    mqtt-packet "^9.0.0"
-    number-allocator "^1.0.14"
-    readable-stream "^4.4.2"
-    reinterval "^1.1.0"
-    rfdc "^1.3.0"
-    split2 "^4.2.0"
-    ws "^8.14.2"
-
-mqtt@^5.2.0:
-  version "5.3.0"
-  resolved "https://registry.yarnpkg.com/mqtt/-/mqtt-5.3.0.tgz#9c874cb529ed24e819a990c507e1c6c80c6e383a"
-  integrity sha512-eZCZpfTDIF++NVvHe/EYUxxieRmDNiIk3hLrN7iJj3W1g5RqAOSwnWLIOyASdqxfOwGXiQRI59HWrd2UAkRKXw==
   dependencies:
     "@types/readable-stream" "^4.0.5"
     "@types/ws" "^8.5.9"
