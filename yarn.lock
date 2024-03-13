@@ -10,9 +10,9 @@
     regenerator-runtime "^0.14.0"
 
 "@types/node@*":
-  version "20.11.26"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.11.26.tgz#3fbda536e51d5c79281e1d9657dcb0131baabd2d"
-  integrity sha512-YwOMmyhNnAWijOBQweOJnQPl068Oqd4K3OFbTc6AHJwzweUwwWG3GIFY74OKks2PJUDkQPeddOQES9mLn1CTEQ==
+  version "20.11.27"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.11.27.tgz#debe5cfc8a507dd60fe2a3b4875b1604f215c2ac"
+  integrity sha512-qyUZfMnCg1KEz57r7pzFtSGt49f6RPkPBis3Vo4PbS7roQEDn22hiHzl/Lo1q4i4hDEgBJmBF/NTNg2XR0HbFg==
   dependencies:
     undici-types "~5.26.4"
 
@@ -559,7 +559,7 @@ mqtt-packet@^9.0.0:
     debug "^4.3.4"
     process-nextick-args "^2.0.1"
 
-mqtt@5.4.0:
+mqtt@5.4.0, mqtt@^5.2.0:
   version "5.4.0"
   resolved "https://registry.yarnpkg.com/mqtt/-/mqtt-5.4.0.tgz#c3ebbe62b510be10b090ffe61a2f32f8536a4ea0"
   integrity sha512-vU03lqX+IpMuHlPSRNl3+HSMNrz5vN5yyZ6wWyv23mDQj/1Lm1JlAT4pvQCfZq9jvsnmSwMqSkB5mm2WUOJw6Q==
@@ -580,29 +580,6 @@ mqtt@5.4.0:
     rfdc "^1.3.0"
     split2 "^4.2.0"
     worker-timers "^7.1.4"
-    ws "^8.14.2"
-
-mqtt@^5.2.0:
-  version "5.3.6"
-  resolved "https://registry.yarnpkg.com/mqtt/-/mqtt-5.3.6.tgz#4445926d30a56ab26109b5480138abd16673fe11"
-  integrity sha512-3XeyCdHRFf3zZdUUBt/pqprKPtUABc8O4ZGPGs2QPO4sPNTnJels8U2UtBtMt09QCgpUmw8gLTLy2R7verR7kQ==
-  dependencies:
-    "@types/readable-stream" "^4.0.5"
-    "@types/ws" "^8.5.9"
-    commist "^3.2.0"
-    concat-stream "^2.0.0"
-    debug "^4.3.4"
-    help-me "^5.0.0"
-    lru-cache "^10.0.1"
-    minimist "^1.2.8"
-    mqtt "^5.2.0"
-    mqtt-packet "^9.0.0"
-    number-allocator "^1.0.14"
-    readable-stream "^4.4.2"
-    reinterval "^1.1.0"
-    rfdc "^1.3.0"
-    split2 "^4.2.0"
-    worker-timers "^7.0.78"
     ws "^8.14.2"
 
 ms@2.0.0:
@@ -974,7 +951,7 @@ worker-timers-worker@^7.0.67:
     "@babel/runtime" "^7.24.0"
     tslib "^2.6.2"
 
-worker-timers@^7.0.78, worker-timers@^7.1.4:
+worker-timers@^7.1.4:
   version "7.1.4"
   resolved "https://registry.yarnpkg.com/worker-timers/-/worker-timers-7.1.4.tgz#dd9a82a0bd7f8194d6e93855f84d4fb72f910361"
   integrity sha512-8PRtiPAyeYukrY+iOUL+0tq4Zn5qyCHrTqFTtHxcESfIxGyulxNwyzQkybrYBKhnMWmx0bku3wxRfE1hts5R6Q==
