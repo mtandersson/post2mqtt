@@ -559,7 +559,30 @@ mqtt-packet@^9.0.0:
     debug "^4.3.4"
     process-nextick-args "^2.0.1"
 
-mqtt@5.5.4, mqtt@^5.2.0:
+mqtt@5.5.5:
+  version "5.5.5"
+  resolved "https://registry.yarnpkg.com/mqtt/-/mqtt-5.5.5.tgz#7f1710ad83bbd85eb8e616a449b8da0eb37266e7"
+  integrity sha512-vWglkVfumjnI53/tV+RMWbDuQL4ldGqc/wFX2EHkMy9sSV7Q0TQK+HcAtmg2QupI8DpcyNpoe2mNhaO/H4ILUg==
+  dependencies:
+    "@types/readable-stream" "^4.0.5"
+    "@types/ws" "^8.5.9"
+    commist "^3.2.0"
+    concat-stream "^2.0.0"
+    debug "^4.3.4"
+    help-me "^5.0.0"
+    lru-cache "^10.0.1"
+    minimist "^1.2.8"
+    mqtt "^5.2.0"
+    mqtt-packet "^9.0.0"
+    number-allocator "^1.0.14"
+    readable-stream "^4.4.2"
+    reinterval "^1.1.0"
+    rfdc "^1.3.0"
+    split2 "^4.2.0"
+    worker-timers "^7.1.4"
+    ws "^8.14.2"
+
+mqtt@^5.2.0:
   version "5.5.4"
   resolved "https://registry.yarnpkg.com/mqtt/-/mqtt-5.5.4.tgz#fa578164f5be1dbabd3ed05aacfbd335aaaa9ae5"
   integrity sha512-odO09EheOHFo8Bv6yM2iEtsM75t06tGZfyq5TrQboQmOYEzX053WqvygNPCCxqQ+iSYAuQxGpsx1f5WUtF8bCw==
