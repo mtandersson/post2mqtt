@@ -22,6 +22,6 @@
   },
   "dependencies": {
     "express": "4.19.2",
-    "mqtt": "5.7.1"
+    "mqtt": "5.7.2"
   }
 }
