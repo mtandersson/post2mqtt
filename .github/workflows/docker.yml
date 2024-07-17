@@ -43,7 +43,7 @@ jobs:
           fi
       - name: Build and push
         id: docker_build
-        uses: docker/build-push-action@v6.4.0
+        uses: docker/build-push-action@v6.4.1
         with:
           push: true
           tags: mtand/post2mqtt:${{ steps.git.outputs.DOCKER_TAG }}
