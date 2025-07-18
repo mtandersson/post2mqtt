@@ -541,10 +541,10 @@ mqtt-packet@^9.0.2:
     debug "^4.3.4"
     process-nextick-args "^2.0.1"
 
-mqtt@5.13.2:
-  version "5.13.2"
-  resolved "https://registry.yarnpkg.com/mqtt/-/mqtt-5.13.2.tgz#5ae0288e699ddab688e485c93eb0f193584c985d"
-  integrity sha512-21E15qjFMNEddowGtLiMw4wXfzZxd3Iv+q+zC+tJSmY0flEreNgov+8SKrYcapA+pjClaqj+IgJW0jsJsHkmVQ==
+mqtt@5.13.3:
+  version "5.13.3"
+  resolved "https://registry.yarnpkg.com/mqtt/-/mqtt-5.13.3.tgz#47a37afca2b8deb2e4d8ff6b0d8bc7b57b8ca075"
+  integrity sha512-91x03kh1+vBBA51OMNbEw2fymXfaUjpHkC0NcMckg9Vf6ee/GrM/HXfE8XeeziHQpJL8adr+9ThTbN5v/WmrRA==
   dependencies:
     "@types/readable-stream" "^4.0.18"
     "@types/ws" "^8.18.1"
