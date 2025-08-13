@@ -67,9 +67,9 @@ binary-extensions@^2.0.0:
   integrity sha512-Ceh+7ox5qe7LJuLHoY0feh3pHuUDHAcRUeyL2VYghZwfpkNIy/+8Ocg0a3UuSoYzavmylwuLWQOf3hl0jjMMIw==
 
 bl@^6.0.8:
-  version "6.1.1"
-  resolved "https://registry.yarnpkg.com/bl/-/bl-6.1.1.tgz#9018c1ae0f8cc6b06f9261135bfc678d5c8608b5"
-  integrity sha512-yYc8UIHrd1ZTLgNBIE7JjMzUPZH+dec3q7nWkrSHEbtvkQ3h6WKC63W9K5jthcL5EXFyMuWYq+2pq5WMSIgFHw==
+  version "6.1.2"
+  resolved "https://registry.yarnpkg.com/bl/-/bl-6.1.2.tgz#fd4274e73c24f4c34ada6d69a612ec924f3df345"
+  integrity sha512-6J3oG82fpJ71WF4l0W6XslkwAPMr+Zcp+AmdxJ0L8LsXNzFeO8GYesV2J9AzGArBjrsb2xR50Ocbn/CL1B44TA==
   dependencies:
     "@types/readable-stream" "^4.0.0"
     buffer "^6.0.3"
