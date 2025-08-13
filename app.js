@@ -31,7 +31,7 @@ mqttClient.on('message', (topic, message) =>
   console.log('topic:', topic, message.toString())
 )
 
-app.use(bodyParser.json()) // for parsing application/json
+app.use(bodyParser.text({type:'*/*'}))
 const server = app.listen(port, () => console.log(`Listning on port ${port}!`))
 
 // Check autn in authorization header or token querystring
@@ -54,7 +54,7 @@ const publish = (req, res) => {
 
   mqttClient.publish(
     path,
-    JSON.stringify(req.body),
+    req.body,
     { qos: 0, retain },
     err => {
       console.log('Published', path, req.body)
