@@ -21,7 +21,7 @@
     "prettier": "3.7.3"
   },
   "dependencies": {
-    "express": "5.1.0",
+    "express": "5.2.0",
     "mqtt": "5.14.1"
   }
 }
