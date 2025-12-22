@@ -106,10 +106,10 @@ braces@~3.0.2:
   dependencies:
     fill-range "^7.1.1"
 
-broker-factory@^3.1.10:
-  version "3.1.10"
-  resolved "https://registry.yarnpkg.com/broker-factory/-/broker-factory-3.1.10.tgz#583005d7bca34c32d828dfcadc51badf5d9a376b"
-  integrity sha512-BzqK5GYFhvVFvO13uzPN0SCiOsOQuhMUbsGvTXDJMA2/N4GvIlFdxEuueE+60Zk841bBU5G3+fl2cqYEo0wgGg==
+broker-factory@^3.1.11:
+  version "3.1.11"
+  resolved "https://registry.yarnpkg.com/broker-factory/-/broker-factory-3.1.11.tgz#adab862adc6e5c3fc1e3274b96edbab6f033340e"
+  integrity sha512-ex4RuEI0AJOdaIcXe1lu9EqRAVkoYvdcvwLvNcE5UZQzYNqzPY+z0frnlxT4+cUwNVpE//9MwGx4lKiLH+pEcw==
   dependencies:
     "@babel/runtime" "^7.28.4"
     fast-unique-numbers "^9.0.24"
@@ -931,13 +931,13 @@ worker-factory@^7.0.46:
     fast-unique-numbers "^9.0.24"
     tslib "^2.8.1"
 
-worker-timers-broker@^8.0.12:
-  version "8.0.12"
-  resolved "https://registry.yarnpkg.com/worker-timers-broker/-/worker-timers-broker-8.0.12.tgz#21822ce336555ee2c80ed5f17d2d32402e856c8d"
-  integrity sha512-Udml0yZv59tj/5Y2eCW2bYmrBgFSYmg0MXSzlDUdmsjcmf272hJaY8R3TWteetfL6tmL2+yJwRmcJgDtwCcOZg==
+worker-timers-broker@^8.0.13:
+  version "8.0.13"
+  resolved "https://registry.yarnpkg.com/worker-timers-broker/-/worker-timers-broker-8.0.13.tgz#64a0a6a22a851afd221b47c2f32bde318e578630"
+  integrity sha512-PZnHHmqOY5oMKQPyfJhqPI9cb3QFmwD3lCIc/Zip6sShpfG2rvvCVDl0xeabGIspiEpP5exNNIlTUHjgP5VAcg==
   dependencies:
     "@babel/runtime" "^7.28.4"
-    broker-factory "^3.1.10"
+    broker-factory "^3.1.11"
     fast-unique-numbers "^9.0.24"
     tslib "^2.8.1"
     worker-timers-worker "^9.0.11"
@@ -952,13 +952,13 @@ worker-timers-worker@^9.0.11:
     worker-factory "^7.0.46"
 
 worker-timers@^8.0.23:
-  version "8.0.26"
-  resolved "https://registry.yarnpkg.com/worker-timers/-/worker-timers-8.0.26.tgz#3bdb0e25b35b5ca3d2cfe5fe885f7c53074b8a30"
-  integrity sha512-Yfr8t1SfvA5Qwr5JlvTHVd0aI1r1kQ+dtJQ5aHjNleK/GRIOrwtoEUnGhwumLR9qH6YghFZsqD9w8IzsP7RHwg==
+  version "8.0.27"
+  resolved "https://registry.yarnpkg.com/worker-timers/-/worker-timers-8.0.27.tgz#984527300c6f0dd6e2df475641c36ce24fd3b1c1"
+  integrity sha512-+7ptDduAWj6Wd09Ga0weRFRx/MUwLhExazn+zu3IrwF0N2U2FPqFRR5W3Qz4scnI3cOILzdIEEytIJ2vbeD9Gw==
   dependencies:
     "@babel/runtime" "^7.28.4"
     tslib "^2.8.1"
-    worker-timers-broker "^8.0.12"
+    worker-timers-broker "^8.0.13"
     worker-timers-worker "^9.0.11"
 
 wrappy@1:
