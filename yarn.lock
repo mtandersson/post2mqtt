@@ -951,11 +951,11 @@ worker-timers-worker@^9.0.14:
     worker-factory "^7.0.50"
 
 worker-timers@^8.0.23:
-  version "8.0.31"
-  resolved "https://registry.yarnpkg.com/worker-timers/-/worker-timers-8.0.31.tgz#2bc1f53594ab3fc48f2dbc9ce219e7e518c5af08"
-  integrity sha512-ngkq5S6JuZyztom8tDgBzorLo9byhBMko/sXfgiUD945AuzKGg1GCgDMCC3NaYkicLpGKXutONM36wEX8UbBCA==
+  version "8.0.32"
+  resolved "https://registry.yarnpkg.com/worker-timers/-/worker-timers-8.0.32.tgz#7b5af1af31ad2965c8d6af1530c7c4d3783cf9a4"
+  integrity sha512-huEv5mB6xIqcadsZ8SuuFQH9Lg9Hq0h0xD9vAZZsLPNw0aLxoDWyjTALAUD3hAA4cuKbKaqrjbBcbEYClwSh3w==
   dependencies:
-    "@babel/runtime" "^7.29.2"
+    "@babel/runtime" "^7.29.7"
     tslib "^2.8.1"
     worker-timers-broker "^8.0.16"
     worker-timers-worker "^9.0.14"
