@@ -930,18 +930,18 @@ worker-factory@^7.0.50:
     fast-unique-numbers "^9.0.27"
     tslib "^2.8.1"
 
-worker-timers-broker@^8.0.16:
-  version "8.0.17"
-  resolved "https://registry.yarnpkg.com/worker-timers-broker/-/worker-timers-broker-8.0.17.tgz#7b929a04480b6babe4df2c410cae50c7f85aa01f"
-  integrity sha512-avGDVB9AP5k5eCAP2AiT/nwCHGCNla7Z+nMZWXpmhbiSTry6A7VwEzlffTO34/5Eo55O+XLbWQu0bBW3uEO0UA==
+worker-timers-broker@^8.0.18:
+  version "8.0.18"
+  resolved "https://registry.yarnpkg.com/worker-timers-broker/-/worker-timers-broker-8.0.18.tgz#271ec8380f34f6167b53d7954f70aa2934d448ed"
+  integrity sha512-FrjzDVX1wKfZN0gRbCFqv8VHuTncG4sbI/WGEg4tSSQeIsnwqg4YBYWMAHYLJtUDEYYmiK65UKFrVMVk2irDSg==
   dependencies:
     "@babel/runtime" "^7.29.7"
     broker-factory "^3.1.15"
     fast-unique-numbers "^9.0.27"
     tslib "^2.8.1"
-    worker-timers-worker "^9.0.14"
+    worker-timers-worker "^9.0.15"
 
-worker-timers-worker@^9.0.14:
+worker-timers-worker@^9.0.15:
   version "9.0.15"
   resolved "https://registry.yarnpkg.com/worker-timers-worker/-/worker-timers-worker-9.0.15.tgz#9c0b575af77440de5af933b62a70330d6687b166"
   integrity sha512-KKUe7lZ/Aignr51H6hOUik8LwTnIgojH/1lwhli8A8qIEIyewogZTpNpMW5B6BF7nmwBOkUoTYgf1H3QShcjSA==
@@ -951,14 +951,14 @@ worker-timers-worker@^9.0.14:
     worker-factory "^7.0.50"
 
 worker-timers@^8.0.23:
-  version "8.0.32"
-  resolved "https://registry.yarnpkg.com/worker-timers/-/worker-timers-8.0.32.tgz#7b5af1af31ad2965c8d6af1530c7c4d3783cf9a4"
-  integrity sha512-huEv5mB6xIqcadsZ8SuuFQH9Lg9Hq0h0xD9vAZZsLPNw0aLxoDWyjTALAUD3hAA4cuKbKaqrjbBcbEYClwSh3w==
+  version "8.0.33"
+  resolved "https://registry.yarnpkg.com/worker-timers/-/worker-timers-8.0.33.tgz#6e4b4c39d817bb05c2bff14cf3d329bc1f9f14b0"
+  integrity sha512-RQVlKkek80v8M6SHvdMKiywaXFmX3XTpYTXTw0r62PdXB06t74XNxcTuG8wsQwnjorAQymNQyyQ0rzv7PykEMQ==
   dependencies:
     "@babel/runtime" "^7.29.7"
     tslib "^2.8.1"
-    worker-timers-broker "^8.0.16"
-    worker-timers-worker "^9.0.14"
+    worker-timers-broker "^8.0.18"
+    worker-timers-worker "^9.0.15"
 
 wrappy@1:
   version "1.0.2"
