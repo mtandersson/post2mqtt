@@ -74,8 +74,10 @@ process.on('SIGTERM', () => {
 })
 
 if (token) {
-  app.post('*', checkAuth, publish)
+  app.post('/', checkAuth, publish)
+  app.post('/*splat', checkAuth, publish)
 } else {
   // dont check auth
-  app.post('*', publish)
+  app.post('/', publish)
+  app.post('/*splat', publish)
 }
