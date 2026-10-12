@@ -8,9 +8,9 @@
   integrity sha512-NpugTzbKgGrNe45Ui32cN8vCFFMxVtP/9rtfwv0nP5FRDAjvYBxJcLVpYA9mr1jxP6cnIT7x9LUzuDTbWYYNRA==
 
 "@types/node@*":
-  version "26.6.4"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-26.6.4.tgz#5aaac1a7337945f7f9a2de4e0d14e7107157e813"
-  integrity sha512-ldVPDCzj7fsaGZrLB0NuHuTvJcsNasysBAqMolr/cgxrLd1xbqxIr3XJiPnHHJUCxj5sNF1vnRj9aWnrVh5Jcg==
+  version "26.6.5"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-26.6.5.tgz#cb35209e7767c503551b5fa42a48231c7441d979"
+  integrity sha512-uMzsv9stDdofIZBx4UGh4Z9ZgXnGC9seRDscilBcTHAeOFk67MZg/k9bWVfO+bk4qZmG+l52hRnLwUiH2LnJTg==
   dependencies:
     undici-types "~8.9.0"
 
@@ -440,9 +440,9 @@ inherits@^2.0.3, inherits@^2.0.4, inherits@~2.0.4:
   integrity sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==
 
 ip-address@^10.1.1:
-  version "10.7.3"
-  resolved "https://registry.yarnpkg.com/ip-address/-/ip-address-10.7.3.tgz#4cb77d274a4e2484a3ea438cfe98dbe0c502e8c5"
-  integrity sha512-A1kdq/tSb5QjvKvAMgIoEvDBIgL7qaqVP/jkvSwYYRZ9iEzvPpopxp2wQfu3SuZRHtpHNxMn8Fs0bS+gf5Xmwg==
+  version "10.7.4"
+  resolved "https://registry.yarnpkg.com/ip-address/-/ip-address-10.7.4.tgz#a5e493fabce725c5d4b8b8f4d2ebb9009fbcf2e8"
+  integrity sha512-DWBMKyeM25D70nrIiTkgQth59/G+naKOTep6huF9j+GmeK3DMD60Zvxg5d5qQnz+38AHgou6ean2LECX+lrKDg==
 
 ipaddr.js@1.9.1:
   version "1.9.1"
