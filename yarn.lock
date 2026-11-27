@@ -105,7 +105,7 @@ braces@~3.0.2:
   dependencies:
     fill-range "^7.1.1"
 
-broker-factory@^3.1.15:
+broker-factory@^3.1.16:
   version "3.1.16"
   resolved "https://registry.yarnpkg.com/broker-factory/-/broker-factory-3.1.16.tgz#ad6dceef08f48a3a27e18d98789504b846789cdf"
   integrity sha512-Zh4KL+7jykwXi9j9JB4v2l8GZlYZuiUvyHVQFseP1m0yYXVUws9b3d2n6ky4KdPZubG6a7tnrE6LCQRr78jrcw==
@@ -831,9 +831,9 @@ statuses@^2.0.1, statuses@^2.0.2, statuses@~2.0.2:
   integrity sha512-DvEy55V3DB7uknRo+4iOGT5fP1slR8wQohVdknigZPMpMstaKJQWhwiYBACJE3Ul2pTnATihhBYnRhZQHGBiRw==
 
 string_decoder@^1.1.1, string_decoder@^1.3.0:
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/string_decoder/-/string_decoder-1.3.0.tgz#42f114594a46cf1a8e30b0a84f56c78c3edac21e"
-  integrity sha512-hkRX8U1WjJFd8LsDJ2yQ/wWWxaopEsABU1XfkM8A+j0+85JAGppt16cr1Whg6KIbb4okU6Mql6BOj+uup/wKeA==
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/string_decoder/-/string_decoder-1.4.0.tgz#aaddaac5179c6cf72f840d82d01862ea1d57f5c4"
+  integrity sha512-r8azg21Y67ckRmeG0hHol5CeDXMs4ZFkFT6eXMO39hX7khvJcopBcYTCeWZ0rQXkMoPh8lVdbjmsOMGL8krxRQ==
   dependencies:
     safe-buffer "~5.2.0"
 
@@ -905,7 +905,7 @@ vary@^1.1.2:
   resolved "https://registry.yarnpkg.com/vary/-/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
   integrity sha512-BNGbWLfd0eUPabhkXUVm0j8uuvREyTh5ovRa/dyow/BqAbZJyC+5fU+IzQOzmAKzYqYRAISoRhdQr3eIZ/PXqg==
 
-worker-factory@^7.0.50, worker-factory@^7.0.51:
+worker-factory@^7.0.51:
   version "7.0.51"
   resolved "https://registry.yarnpkg.com/worker-factory/-/worker-factory-7.0.51.tgz#8e9f63a006dfab59414bbec528c68bcb07cbd9f1"
   integrity sha512-ToDnFkQyWfMzmZX2+bFd5CkjIDjT3i3/JUey1iBP/PNnhGn51eMHrN+iOWzgsKUbBruU+HMNbHll0Jyjfjqaaw==
@@ -914,35 +914,35 @@ worker-factory@^7.0.50, worker-factory@^7.0.51:
     fast-unique-numbers "^9.0.27"
     tslib "^2.9.1"
 
-worker-timers-broker@^8.0.18:
-  version "8.0.18"
-  resolved "https://registry.yarnpkg.com/worker-timers-broker/-/worker-timers-broker-8.0.18.tgz#271ec8380f34f6167b53d7954f70aa2934d448ed"
-  integrity sha512-FrjzDVX1wKfZN0gRbCFqv8VHuTncG4sbI/WGEg4tSSQeIsnwqg4YBYWMAHYLJtUDEYYmiK65UKFrVMVk2irDSg==
+worker-timers-broker@^8.0.19:
+  version "8.0.19"
+  resolved "https://registry.yarnpkg.com/worker-timers-broker/-/worker-timers-broker-8.0.19.tgz#4c3596d65d95ae080cf1b49d20a2bf7717fe6c26"
+  integrity sha512-gIdrjG+UAGi2vGYFRWcZyEpDIoaz7b6mBNg96ogWL8eyBUP+EyezWMVQO/j7SHEDDy4roMbPNww00jxjxrTRHg==
   dependencies:
     "@babel/runtime" "^7.29.7"
-    broker-factory "^3.1.15"
+    broker-factory "^3.1.16"
     fast-unique-numbers "^9.0.27"
-    tslib "^2.8.1"
-    worker-timers-worker "^9.0.15"
+    tslib "^2.9.1"
+    worker-timers-worker "^9.0.16"
 
-worker-timers-worker@^9.0.15:
-  version "9.0.15"
-  resolved "https://registry.yarnpkg.com/worker-timers-worker/-/worker-timers-worker-9.0.15.tgz#9c0b575af77440de5af933b62a70330d6687b166"
-  integrity sha512-KKUe7lZ/Aignr51H6hOUik8LwTnIgojH/1lwhli8A8qIEIyewogZTpNpMW5B6BF7nmwBOkUoTYgf1H3QShcjSA==
+worker-timers-worker@^9.0.16:
+  version "9.0.16"
+  resolved "https://registry.yarnpkg.com/worker-timers-worker/-/worker-timers-worker-9.0.16.tgz#2c4737bffae95aac3a62366fc58e4c213b1add05"
+  integrity sha512-GtU1/uIaR4+4L4vEFqRYWMeSU+Lxok5u8Ie6vnB7R9uOxm2tKajG19CFqNKXx46qSN654BgbYSZiOLY1rIg9yQ==
   dependencies:
     "@babel/runtime" "^7.29.7"
-    tslib "^2.8.1"
-    worker-factory "^7.0.50"
+    tslib "^2.9.1"
+    worker-factory "^7.0.51"
 
 worker-timers@^8.0.23:
-  version "8.0.34"
-  resolved "https://registry.yarnpkg.com/worker-timers/-/worker-timers-8.0.34.tgz#88d4a1faef8c4aaf9b0f3d89b424d2e260c5abc1"
-  integrity sha512-WXL+Dqsm0G6dnC66rQsvM3tPT2adhbqSirWUCZGglkALOr8ocS0KlpU0iuKbjflJOlu3ydZikMEVrYnHOM9suw==
+  version "8.0.36"
+  resolved "https://registry.yarnpkg.com/worker-timers/-/worker-timers-8.0.36.tgz#65ad4c4f192abb37bd67dc90df4362fc83d54e6c"
+  integrity sha512-wItYRUt2Mgkhiy2usQ72CdhPhItozKVJpD5AlZLi6kOYg1FkwuDwoXeo4r8saFqBUfIXVQ+rYBVzVOJ2WKfRtA==
   dependencies:
     "@babel/runtime" "^7.29.7"
-    tslib "^2.8.1"
-    worker-timers-broker "^8.0.18"
-    worker-timers-worker "^9.0.15"
+    tslib "^2.9.1"
+    worker-timers-broker "^8.0.19"
+    worker-timers-worker "^9.0.16"
 
 wrappy@1:
   version "1.0.2"
